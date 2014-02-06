@@ -100,7 +100,7 @@ class Input
         $item = isset($_POST[$key]) ? $_POST[$key] : NULL;
         if($filter_array === 0) {
             if(is_array($item))
-                return NULL;
+                return $default;
         }
         return isset($_POST[$key]) ? self::clean($_POST[$key]) : $default;        
     }
@@ -124,7 +124,7 @@ class Input
         $item = isset($_GET[$key]) ? $_GET[$key] : NULL;
         if($filter_array === 0) {
             if(is_array($item))
-                return NULL;
+                return $default;
         }
         return isset($_GET[$key]) ? self::clean($_GET[$key]) : $default;        
     }
