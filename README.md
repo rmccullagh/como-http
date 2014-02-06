@@ -1,10 +1,11 @@
 Input
 ========
-This is a library that makes it easier to safely retrieve user input
+This is a library that makes it easier to safely retrieve user input. The class provides an abstraction to the superglobals $_GET and $_POST. 
 
 
 To Use
 ========
+
 
 To install via composer:
 ========================
