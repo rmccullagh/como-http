@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name="Como Input Test Suite">
+            <directory>./</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src/Como/</directory>
+        </whitelist>
+    </filter>
+    <php>
+        <server name="HTTP_X_REQUESTED_WITH" value="XMLHttpRequest" />
+    </php>
+</phpunit>
