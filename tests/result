@@ -1,0 +1,21 @@
+Input
+ [x] Get return null when array
+ [x] Get return default when array
+ [x] Get return array
+ [x] Get return null when null
+ [x] Post return null when array
+ [x] Post return default when array
+ [x] Post return array
+ [x] Post return null when null
+ [x] Is ajax return true
+ [x] Is ajax return false
+
+Request
+ [x] Initialize request from globals
+ [x] Get all returns array
+ [x] Return default string when is array and deny array flag is on
+ [x] Return array when is array and deny array flag is off
+ [ ] Is iterable
+ [x] Is countable
+ [x] Set allowed keys
+
