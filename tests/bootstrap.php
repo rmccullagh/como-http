@@ -18,7 +18,8 @@
  * @license     http://www.apache.org/licenses/LICENSE-2.0 
  */
 
-require '../autoload.php';
+
+require_once '..' . DIRECTORY_SEPARATOR . 'autoload.php';
 
 
 
