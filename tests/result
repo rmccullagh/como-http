@@ -15,7 +15,7 @@ Request
  [x] Get all returns array
  [x] Return default string when is array and deny array flag is on
  [x] Return array when is array and deny array flag is off
- [ ] Is iterable
+ [x] Is iterable
  [x] Is countable
  [x] Set allowed keys
 

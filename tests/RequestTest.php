@@ -25,7 +25,6 @@ class RequestTest extends PHPUnit_Framework_TestCase
     public function __construct() 
     {
         parent::__construct();
-        //echo "XDebug Time Index: " . xdebug_time_index() .   "\n";
     }
     public function testInitializeRequestFromGlobals()
     {
@@ -69,12 +68,6 @@ class RequestTest extends PHPUnit_Framework_TestCase
         $this->assertInstanceOf('\IteratorAggregate', $request->query);
         $this->assertInstanceOf('\IteratorAggregate', $request->server);
         $this->assertInstanceOf('\IteratorAggregate', $request->request);
-        /*
-        var_dump($request->query); 
-        foreach($request->query as $key => $value) {
-            echo $key . " " . $value . "\n";
-        }
-        */
     }
 
     public function testIsCountable()
